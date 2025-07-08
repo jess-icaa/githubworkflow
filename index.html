@@ -1,0 +1,49 @@
+<!-- Create a basic HTML structure for Rock Paper Scissors game -->
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Wrapper that matches .game-container class in CSS -->
+    <div class="game-container">
+
+        <!-- Game Title -->
+        <h1>Rock Paper Scissors Game</h1>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+            <div class="score">
+                <h2>You</h2>
+                <p id="user-score">0</p>
+            </div>
+            <div class="score">
+                <h2>Computer</h2>
+                <p id="computer-score">0</p>
+            </div>
+        </div>
+
+        <!-- Round Number -->
+        <div class="round">
+            <h2>Round</h2>
+            <p id="round-number">1</p>
+        </div>
+
+        <!-- Choice Buttons -->
+        <div class="buttons">
+            <button id="rock" class="btn">Rock</button>
+            <button id="paper" class="btn">Paper</button>
+            <button id="scissors" class="btn">Scissors</button>
+        </div>
+
+        <!-- Result of current round -->
+        <div class="result">
+            <h2>Result</h2>
+            <p id="user-choice">Your choice: </p>
+            <p id="computer-choice">Computer's choice: </p>
+            <p id="game-result">Game Result: </p>
+        </div>
